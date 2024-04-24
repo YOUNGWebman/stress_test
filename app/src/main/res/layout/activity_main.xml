@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="35dp"
+        android:padding="3dp"
+        android:textSize="10sp"
+        android:text="100%"
+        android:id="@+id/button"
+        android:layout_below="@+id/button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="50dp"
+        android:onClick="Start"/>
+
+<Button
+            android:layout_width="50dp"
+        android:layout_height="35dp"
+        android:padding="3dp"
+        android:textSize="10sp"
+    android:text="50%"
+    android:id="@+id/buttonhalf"  
+    android:layout_below="@+id/textView"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_marginTop="40dp"
+    android:layout_marginLeft="130dp"
+    android:onClick="startHalf"/> 
+
+
+<Button
+            android:layout_width="50dp"
+        android:layout_height="35dp"
+        android:padding="3dp"
+        android:textSize="9sp"
+    android:text="Random"
+    android:id="@+id/buttonpoll"  
+    android:layout_below="@+id/textView"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_marginTop="40dp"
+    android:layout_marginLeft="220dp"
+    android:onClick="startRandom"/> 
+
+<Button
+            android:layout_width="50dp"
+        android:layout_height="35dp"
+        android:padding="3dp"
+        android:textSize="10sp"
+    android:text="Single"
+    android:id="@+id/buttonSingleStart"  
+    android:layout_below="@+id/textView"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_marginTop="40dp"
+    android:layout_marginLeft="300dp"
+    android:onClick="startSingle"/> 
+
+
+
+
+
+
+<Button
+            android:layout_width="50dp"
+        android:layout_height="35dp"
+        android:padding="3dp"
+        android:textSize="10sp"
+    android:text="Mem"
+    android:id="@+id/buttonmem"  
+    android:layout_below="@+id/textView"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_marginTop="80dp"
+    android:layout_marginLeft="50dp"
+    android:onClick="startMem"/> 
+
+    <Button
+                android:layout_width="50dp"
+        android:layout_height="35dp"
+        android:padding="3dp"
+        android:textSize="10sp"
+        android:text="emmc"
+        android:id="@+id/buttonemmc"
+        android:layout_toEndOf="@+id/button"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="175dp"
+        android:onClick="startEmmc"/>
+
+    <Button
+                android:layout_width="50dp"
+        android:layout_height="35dp"
+        android:padding="3dp"
+        android:textSize="10sp"
+        android:text="Stop"
+        android:id="@+id/button2"
+        android:layout_alignBottom="@+id/button"
+        android:layout_toRightOf="@+id/button"
+        android:layout_toEndOf="@+id/button"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="300dp"
+        android:onClick="stop"/>
+
+
+  <TextView android:id="@+id/CPUNum"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:paddingBottom="20px"
+    android:layout_marginTop="120dp"
+    android:layout_marginLeft="50dp"
+    android:textSize="14sp"
+    android:visibility="visible" />
+
+    <TextView android:id="@+id/CPUTemp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:paddingBottom="20px"
+        android:textSize="14sp"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="50dp"
+        android:visibility="visible" />
+
+    <TextView android:id="@+id/CPUFreq"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:paddingBottom="20px"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="230dp"
+        android:textSize="14sp"
+        android:visibility="visible" />
+
+    <TextView android:id="@+id/Uptime"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:paddingBottom="20px"
+        android:textSize="14sp"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="50dp"
+        android:visibility="visible" />
+
+    <TextView android:id="@+id/DDRFree"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:paddingBottom="15px"
+        android:textSize="15sp"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="50dp"
+        android:visibility="visible" />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
